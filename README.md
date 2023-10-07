@@ -1,12 +1,13 @@
 # Test-Driven Development - Group 4
 Authors:
-Part 1 - 
-Kian S Patil (Driver)
-Patrik Dominik Pordi (Navigator)
 
-Part 2 - 
-Patrik Dominik Pordi (Driver)
-Kian S Patil (Navigator)
+Part 1 
+- Kian S Patil (Driver)
+- Patrik Dominik Pordi (Navigator)
+
+Part 2
+- Patrik Dominik Pordi (Driver)
+- Kian S Patil (Navigator)
 
 
 ## TTD_Group4 Badges
