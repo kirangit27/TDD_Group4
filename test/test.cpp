@@ -1,15 +1,12 @@
 #include <gtest/gtest.h>
-#include "lib1.hpp"
-#include "lib2.hpp"
+#include "../include/pid.hpp"
 
-TEST(dummy_test, this_should_pass) {
-  EXPECT_EQ(1, 1);
+TEST(testPID, should_pass) {
+  PID pid(0.1, 0.0, 0.1, 0.01);
+  EXPECT_NEAR(pid.compute(10, 10), 10, 0.05);
 }
 
-TEST(dummy_test, this_should_pass_too) {
-  EXPECT_EQ(my_function1(3), 3);
-}
-
-TEST(dummy_test, this_will_fail) {
-  EXPECT_EQ(my_function2(3.2), 3.2);
+TEST(testPID_1, should_pass) {
+  PID pid(0.1, 0.0, 0.2, 0.1);
+  EXPECT_NEAR(pid.compute(10, 12), 6, 0.05);
 }
