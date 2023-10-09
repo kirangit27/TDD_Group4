@@ -1,0 +1,5 @@
+add_test( testPID.should_pass /home/hritvik/TDD_Group4/build/test/cpp-test [==[--gtest_filter=testPID.should_pass]==] --gtest_also_run_disabled_tests)
+set_tests_properties( testPID.should_pass PROPERTIES WORKING_DIRECTORY /home/hritvik/TDD_Group4/build/test)
+add_test( testPID_1.should_pass /home/hritvik/TDD_Group4/build/test/cpp-test [==[--gtest_filter=testPID_1.should_pass]==] --gtest_also_run_disabled_tests)
+set_tests_properties( testPID_1.should_pass PROPERTIES WORKING_DIRECTORY /home/hritvik/TDD_Group4/build/test)
+set( cpp-test_TESTS testPID.should_pass testPID_1.should_pass)
