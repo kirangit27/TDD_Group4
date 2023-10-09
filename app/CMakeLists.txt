@@ -1,7 +1,7 @@
 # Any C++ source files needed to build this target (shell-app).
 add_executable(shell-app
   # list of source cpp files:
-  pid.cpp
+  pid_compute.cpp
   main.cpp
   )
 
