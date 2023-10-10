@@ -23,18 +23,18 @@ double PID::compute(double ref_vel, double vel) {
   
   double new_vel; 
 
-  // double error_i = 0;
-  // double error_sum = 0;
+  double error_i = 0;
+  double error_sum = 0;
 
-  // double error = ref_vel - vel;
+  double error = ref_vel - vel;
 
-  // double propTerm = m_Kp * error;
+  double propTerm = m_Kp * error;
 
-  // error_sum +=  m_Ki*(error * m_dt);
+  error_sum +=  m_Ki*(error * m_dt);
 
-  // double dT = m_Kd*(error - error_i) / m_dt;
+  double dT = m_Kd*(error - error_i) / m_dt;
 
-  // new_vel = vel + propTerm + error_sum + dT;
+  new_vel = vel + propTerm + error_sum + dT;
 
   return new_vel;  
 }
