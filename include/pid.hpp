@@ -1,6 +1,6 @@
 /**
  * @file pid.hpp
- * @author Kiran S Patil, Patrik Dominik Pordi
+ * @author Kiran S Patil, Patrik Dominik Pordi, Hritvik Choudhari
  * @brief header file containing PID class
  * @version 0.1
  * @date 2023-10-07

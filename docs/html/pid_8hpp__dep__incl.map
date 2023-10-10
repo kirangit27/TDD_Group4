@@ -1,0 +1,7 @@
+<map id="include/pid.hpp" name="include/pid.hpp">
+<area shape="rect" id="Node000001" title="header file containing PID class" alt="" coords="80,5,201,31"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html" title="mail file of a program that implements a PID controller." alt="" coords="5,79,116,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="120,42,76,80,72,76,116,38"/>
+<area shape="rect" id="Node000003" href="$pid__compute_8cpp.html" title="contains function definitions used to implement PID controller." alt="" coords="140,79,301,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="165,38,209,76,206,80,162,42"/>
+</map>
