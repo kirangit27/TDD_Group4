@@ -24,7 +24,7 @@ error = ref_vel - vel
 error = 15.0 - 10.0 = 5.0
 error_i = 0 (for simplicity, as we don't have preceeding values)
 new_vel = vel + Kp*error + Ki*(error*dt) + Kd*(error - error_i)/dt
-new_vel = 10 + 0.5 + 0 + (0.1*5)/0.1 
+new_vel = 10 + 0.5 + 0 + (0.1*5)/0.1
 new_vel = 15,5
 */
 
