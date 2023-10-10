@@ -17,10 +17,10 @@ int main()
   double kp, ki, kd, dt, ref_vel, vel = 0;
   double new_vel;
 
-  // kp = 0.1;
-  // ki = 0.0; 
-  // kd = 0.1;  
-  // dt = 0.1;
+  kp = 0.1;
+  ki = 0.0; 
+  kd = 0.1;  
+  dt = 0.1;
   
   PID pid(kp,ki,kd,dt);
 
