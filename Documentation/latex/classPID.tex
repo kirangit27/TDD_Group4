@@ -1,0 +1,65 @@
+\hypertarget{classPID}{}\doxysection{P\+ID Class Reference}
+\label{classPID}\index{PID@{PID}}
+
+
+\mbox{\hyperlink{classPID}{P\+ID}} controller class.  
+
+
+
+
+{\ttfamily \#include $<$pid.\+hpp$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classPID_adb882cf64012193363c017737a35470a}{P\+ID}} (double m\+\_\+\+Kp, double m\+\_\+\+Ki, double m\+\_\+\+Kd, double m\+\_\+dt)
+\begin{DoxyCompactList}\small\item\em Constructor to assign default values to the \mbox{\hyperlink{classPID}{P\+ID}} gains and dt. \end{DoxyCompactList}\item 
+double \mbox{\hyperlink{classPID_a746e1137d7ea122d530536d244ea0488}{compute}} (double ref\+\_\+vel, double vel)
+\begin{DoxyCompactList}\small\item\em Computes \mbox{\hyperlink{classPID}{P\+ID}} control action. Returns the new velocity. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+\mbox{\hyperlink{classPID}{P\+ID}} controller class. 
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classPID_adb882cf64012193363c017737a35470a}\label{classPID_adb882cf64012193363c017737a35470a}} 
+\index{PID@{PID}!PID@{PID}}
+\index{PID@{PID}!PID@{PID}}
+\doxysubsubsection{\texorpdfstring{PID()}{PID()}}
+{\footnotesize\ttfamily P\+I\+D\+::\+P\+ID (\begin{DoxyParamCaption}\item[{double}]{m\+\_\+\+Kp,  }\item[{double}]{m\+\_\+\+Ki,  }\item[{double}]{m\+\_\+\+Kd,  }\item[{double}]{m\+\_\+dt }\end{DoxyParamCaption})}
+
+
+
+Constructor to assign default values to the \mbox{\hyperlink{classPID}{P\+ID}} gains and dt. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classPID_a746e1137d7ea122d530536d244ea0488}\label{classPID_a746e1137d7ea122d530536d244ea0488}} 
+\index{PID@{PID}!compute@{compute}}
+\index{compute@{compute}!PID@{PID}}
+\doxysubsubsection{\texorpdfstring{compute()}{compute()}}
+{\footnotesize\ttfamily double P\+I\+D\+::compute (\begin{DoxyParamCaption}\item[{double}]{ref\+\_\+vel,  }\item[{double}]{vel }\end{DoxyParamCaption})}
+
+
+
+Computes \mbox{\hyperlink{classPID}{P\+ID}} control action. Returns the new velocity. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ref\+\_\+vel} & Reference velocity \\
+\hline
+{\em vel} & Current velocity \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double new\+\_\+vel 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/\mbox{\hyperlink{pid_8hpp}{pid.\+hpp}}\item 
+app/\mbox{\hyperlink{pid__compute_8cpp}{pid\+\_\+compute.\+cpp}}\end{DoxyCompactItemize}
