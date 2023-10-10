@@ -1,6 +1,6 @@
 /**
  * @file pid_compute.cpp
- * @author Kiran S Patil, Patrik Dominik Pordi
+ * @author Kiran S Patil, Patrik Dominik Pordi, Hritvik Choudhari
  * @brief contains function definitions used to implement PID controller.
  * @version 0.1
  * @date 2023-10-07
@@ -20,8 +20,7 @@ PID::PID(double Kp, double Ki, double Kd, double dt) {
 
 
 double PID::compute(double ref_vel, double vel) {
-  
-  double new_vel; 
+  double new_vel;
 
   double error_i = 0;
   double error_sum = 0;
@@ -36,5 +35,5 @@ double PID::compute(double ref_vel, double vel) {
 
   new_vel = vel + propTerm + error_sum + dT;
 
-  return new_vel;  
+  return new_vel;
 }
